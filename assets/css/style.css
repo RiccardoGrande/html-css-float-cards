@@ -30,5 +30,46 @@ h1{
 p{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 1rem;
+
+}
+
+.content{
+
+    background-color: grey;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.content::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.sectionimg{
+
+    background-color: black;
+    height: 400px;
+    margin: 10px;
+    width: calc(100% / 6)
+
+}
+
+.icon img {
+
+    float: left;
+    height: 200px;
+    margin: 10px;
+    width: calc(80% / 6);
+    border: solid 1px red;
+    
+    
+
+
+
 
 }
