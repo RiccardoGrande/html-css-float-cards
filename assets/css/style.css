@@ -54,22 +54,22 @@ p{
 
     float: left;
     background-color: black;
-    height: 200px;
-    margin: 10px;
-    width: calc(100% / 6)
+    margin-right: 10px;
+    width: calc(100% / 6);
+    padding:0 15px;
 
 }
 
-.icon img {
+img {
 
     float: left;
-    margin: 10px;
-    width: 100%;
+    width: 100px;
     border: solid 1px red;
     
-    
-
-
-
-
 }
+
+h3,h4{
+
+    color: var(--tm-name);
+}
+
