@@ -3,14 +3,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    font-family: 'Fredoka', sans-serif;
+    
 
 }
 
 :root{
 
-    --tm-title: rgb(227, 34, 34);
+    --tm-title: rgb(251, 3, 110);
     --tm-icon: black;
-    
+    --tm-name: white;
+    --tm-mail: rgb(0, 170, 255);
+
+}
+
+
+
+h1{
+
+    text-align: center;
+    margin: 2rem;
+    color: var(--tm-title);
+
+}
+
+p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
