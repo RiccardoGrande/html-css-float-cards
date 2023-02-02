@@ -1,0 +1,16 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root{
+
+    --tm-title: rgb(227, 34, 34);
+    --tm-icon: black;
+    
+
+}
